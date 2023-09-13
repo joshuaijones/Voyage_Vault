@@ -37,9 +37,9 @@ main {
 }
 
 #catcher {
-    background-image: url("../images/raftingBackground.jpg");
+    /* background-image: url("../images/raftingBackground.jpg");
     background-size: 850px;
-    background-position: bottom;
+    background-position: bottom; */
 }
 #headshot {
     border-radius: 10px;
@@ -63,8 +63,22 @@ h3.nameTitle {
     font-size: 20px;
 }
 
+.aboutMe {
+    display: inline-block;
+}
 
-img {
+.aboutMe h2 {
+    display: inline-block;
+
+}
+
+.aboutMe img {
+    display: inline-block;
+    height: 120px;
+}
+
+
+footer img{
     width: 20px;
     height: 20px;
 }
