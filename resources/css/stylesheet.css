@@ -2,8 +2,8 @@
 
 * {
     font-family: 'Garamond', sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 2px;
+    padding: 2px;
 }
 
 header {
@@ -36,11 +36,31 @@ main {
     padding: 125px 150px 0px;
 }
 
+#catcher {
+    background-image: url("../resources/images/raftingBackground.jpg");
+}
 #headshot {
     border-radius: 10px;
     width: 20px;
     height: 20px;
+    display: inline-block;
 }
+
+aside {
+    display: inline-block;
+}
+
+.nameTitle {
+    display: block;
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+}
+
+h3.nameTitle {
+    font-size: 20px;
+}
+
 
 img {
     width: 20px;
