@@ -37,7 +37,9 @@ main {
 }
 
 #catcher {
-    background-image: url("../resources/images/raftingBackground.jpg");
+    background-image: url("../images/raftingBackground.jpg");
+    background-size: 850px;
+    background-position: bottom;
 }
 #headshot {
     border-radius: 10px;
