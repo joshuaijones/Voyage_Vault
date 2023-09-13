@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/garamond');
+
+* {
+    font-family: 'Garamond', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin-left: 20%;
+    box-sizing: content-box;
+}
+
+nav {
+    display: inline-block;
+    text-align: right;
+    width: 19%;
+}
+
+/* a {
+    display: inline-block;
+} */
+
+img {
+    width: 20px;
+    height: 20px;
+}
