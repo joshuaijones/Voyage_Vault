@@ -21,7 +21,8 @@ header {
 h1 {
     display: inline;
     text-align: left;
-    margin: auto 0;            
+    margin: auto 0;    
+    margin-right: 3%;        
 }
 
 #h1Title {
@@ -36,7 +37,7 @@ h1 {
 
 nav {
     padding-top: 15px;
-    padding-left: 50px;
+    padding-left: 0px;
     width: 300px;
     display: inline-block;
     height: 50px;
