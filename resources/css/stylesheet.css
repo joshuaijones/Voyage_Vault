@@ -1,17 +1,21 @@
 @import url('https://fonts.cdnfonts.com/css/garamond');
 
+
 * {
     font-family: 'Garamond', sans-serif;
-    margin: 2px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
     background-color: white;
     position: fixed;
     height: 75px;
+    width: 100%;
     box-sizing: content-box;
-    padding: 25px 150px 0px;
+    padding: 20px 150px 0px;
+    margin: 0px;
+    z-index: 10;
 }
 
 h1 {
@@ -23,24 +27,52 @@ h1 {
 nav {
     padding-top: 15px;
     padding-left: 50px;
-    width: 250px;
-    float: right;
+    width: 300px;
+    display: inline-block;
     height: 50px;
 }
 
 a {
     display: inline-block;
+    margin: 3px;
+    padding: 3px;
 }
 
 main {
     padding: 125px 150px 0px;
 }
 
-#catcher {
-    /* background-image: url("../images/raftingBackground.jpg");
-    background-size: 850px;
-    background-position: bottom; */
+#catcher::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: linear-gradient(to right, black, lightgrey);
+    /* mix-blend-mode: color; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .6;
+    z-index: 0;
 }
+#catcher {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+}
+#catcher > * {
+    z-index: 5;
+    position: relative;
+}
+
+#catcher {
+    color: white;
+    background-image: url("../images/raftingBackground.jpg");
+    background-size: 850px;
+    background-position: bottom; 
+}
+
 #headshot {
     border-radius: 10px;
     width: 20px;
@@ -64,19 +96,33 @@ h3.nameTitle {
 }
 
 .aboutMe {
-    display: inline-block;
+    display: block;
 }
 
 .aboutMe h2 {
-    display: inline-block;
+    display: block;
+}
 
+.aboutMe p {
+    display: inline-block;
+    text-align: justify;
+}
+
+.wrap {
+    display: inline-block;
+    margin: 5px auto;
+    width: 100%;
 }
 
 .aboutMe img {
-    display: inline-block;
-    height: 120px;
+    float: left;
+    width: 100%;
 }
 
+footer {
+    margin: 25px 150px 0px;
+    padding: 20px 0px;
+}
 
 footer img{
     width: 20px;
