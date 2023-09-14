@@ -95,15 +95,15 @@ h3.nameTitle {
     font-size: 20px;
 }
 
-.aboutMe {
+#aboutMe {
     display: block;
 }
 
-.aboutMe h2 {
+#aboutMe h2 {
     display: block;
 }
 
-.aboutMe p {
+#aboutMe p {
     display: inline-block;
     text-align: justify;
 }
@@ -114,7 +114,7 @@ h3.nameTitle {
     width: 100%;
 }
 
-.aboutMe img {
+#aboutMe img {
     float: left;
     width: 100%;
 }
@@ -124,7 +124,11 @@ footer {
     padding: 20px 0px;
 }
 
+footer p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 footer img{
-    width: 20px;
-    height: 20px;
+    height: 40px;
 }
